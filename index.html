@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hipotenüs Hesaplama</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css
+    ">
+    <style>
+        #btn {
+            margin-left: 5px;
+        }
+
+        .sonuc {
+
+            text-decoration: underline;
+            text-transform: uppercase;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2 class="text-center mt-5">Hipotenüs Kenarı Hesaplama</h2>
+    <div class="row mt-5">
+        <div class="col-4"></div>
+
+        <div class="col-2">
+            <label class="form-label">1.Kenarı giriniz</label>
+            <input placeholder="1. Kenarı girin" class="form-control" id="txtKenar1">
+        </div>
+
+        <div class="col-2">
+            <label class="form-label">2.kenarı giriniz</label>
+            <input placeholder="2. Kenarı girin" class="form-control" id="txtKenar2">
+        </div>
+        <div class="col-4"></div>
+    </div>
+    <div class="row mt-3 ">
+        <div class="col-4"></div>
+        <div class="col-2 ">
+
+            <button id="btn" class="btn btn-primary mx-auto">HESAPLA</button>
+        </div>
+        <div class="col-6"></div>
+    </div>
+    <div class="sonuc text-center" id="sonuc"></div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
